@@ -1,0 +1,46 @@
+/* Write your code here. */
+.gallery-app-container {
+  display: flex;
+  justify-content: center;
+}
+
+.gallery-container {
+  width: 90%;
+  max-width: 1140px;
+  margin-top: 34px;
+  margin-bottom: 34px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .gallery-container {
+      margin-top: 68px;
+      margin-bottom: 68px;
+  }
+}
+
+.selected-gallery-image {
+  border-radius: 18px;
+}
+
+.gallery-heading {
+  color: #1e293b;
+  font-family: "Roboto";
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 24px;
+}
+
+.gallery-description {
+  color: #64748b;
+  font-family: "Roboto";
+  font-size: 16px;
+}
+
+.thumbnails-list {
+  padding: 0px;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
